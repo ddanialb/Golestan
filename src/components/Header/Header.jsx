@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="mobile:w-full mobile:h-[130px] tablet:w-full tablet:h-[120px] desktop:w-auto desktop:h-full desktop:absolute desktop:right-[110px]">
                     <div className="mobile:w-[100%] mobile:h-[120px] mobile:bg-img-dark mobile:flex mobile:items-center mobile:justify-center desktop:absolute desktop:flex desktop:items-end desktop:w-[266px] desktop:h-[75px]">
                     <a href="#">
-                        <img className="desktop:absolute desktop:right-0 desktop:top-[50px]" src="./public/images/header/logo-fr.png" alt="" />
+                        <img className="desktop:absolute desktop:right-0 desktop:top-[50px]" src="/images/header/logo-fr.png" alt="" />
                     </a>
                     </div>
                 </div>

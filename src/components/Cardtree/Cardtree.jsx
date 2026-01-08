@@ -4,7 +4,7 @@ const Cardtree = () => {
         <div className="mobile:gap-6 mobile:flex mobile:flex-col mobile:items-center tablet:flex tablet:flex-row tablet:justify-center tablet:gap-[15px] desktop:flex desktop:flex-row desktop:justify-center desktop:gap-[15px]">
           <div className="mobile:hidden mobile:w-[315px] mobile:h-[455px] tablet:hidden desktop:w-[315px] desktop:block desktop:h-[455px] border-solid border-[1px] border-gray-300 shadow-2xl">
             <div>
-                <iframe src="../../../public/images/ved-1.mp4" frameborder="0" className="w-full h-full"></iframe>
+                <iframe src="/images/ved-1.mp4" frameborder="0" className="w-full h-full"></iframe>
             </div>
             <div className="mobile:w-[275px] mobile:h-[250px] mobile:flex mobile:flex-col mobile:gap-4 mobile:mx-auto mobile:box-border mobile:mt-1 desktop:w-[275px] desktop:h-[250px] desktop:mx-auto desktop:box-border desktop:mt-1">
               <a href="#" className="mt-4 text-[17px] font-bold font-['Yekan'] leading-[28px] text-[#FF0000]">سالاد نودل</a>
@@ -16,7 +16,7 @@ const Cardtree = () => {
           </div>
           <div className="mobile:w-[315px] mobile:h-[455px] tablet:w-[315px] tablet:h-[455px] desktop:w-[315px] desktop:h-[455px] border-solid border-[1px] border-gray-300 shadow-2xl">
             <div>
-                <iframe src="../../../public/images/ved-2.mp4" frameborder="0" className="w-full h-full"></iframe>
+                <iframe src="/images/ved-2.mp4" frameborder="0" className="w-full h-full"></iframe>
             </div>
             <div className="mobile:w-[275px] mobile:h-[250px] mobile:flex mobile:flex-col mobile:gap-4 mobile:mx-auto mobile:box-border mobile:mt-1 desktop:w-[275px] desktop:h-[250px] desktop:mx-auto desktop:box-border desktop:mt-1">
               <a href="#" className="text-[17px] font-bold font-['Yekan'] leading-[28px] text-[#FF0000]">اینستاگرام هاتی نودل</a>
@@ -28,7 +28,7 @@ const Cardtree = () => {
           </div>
           <div className="mobile:w-[315px] mobile:h-[455px] tablet:w-[315px] tablet:h-[455px] desktop:w-[315px] desktop:h-[455px] border-solid border-[1px] border-gray-300 shadow-2xl">
             <div>
-                <iframe src="../../../public/images/ved-3.mp4" frameborder="0" className="w-full h-full"></iframe>
+                <iframe src="/images/ved-3.mp4" frameborder="0" className="w-full h-full"></iframe>
             </div>
             <div className="mobile:w-[275px] mobile:h-[250px] mobile:flex mobile:flex-col mobile:gap-4 mobile:mx-auto mobile:box-border mobile:mt-1 desktop:w-[275px] desktop:h-[250px] desktop:mx-auto desktop:box-border desktop:mt-1">
               <a href="#" className="text-[17px] font-bold font-['Yekan'] leading-[28px] text-[#FF0000]">برنج گلستان</a>

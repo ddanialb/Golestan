@@ -1,5 +1,5 @@
 
-import img from '../../../public/images/products/img-3.jpg';
+import img from '/images/products/img-3.jpg';
 const Peste = () => {
     return ( 
         <section className="bg-slate-400 w-full mobile:h-[300px] mobile:relative tablet:h-[500px] tablet:relative desktop:h-[500px] desktop:relative">

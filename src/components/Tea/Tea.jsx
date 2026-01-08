@@ -1,4 +1,4 @@
-import img from '../../../public/images/products/img-2.jpg';
+import img from '/images/products/img-2.jpg';
 
 
 const Tea = () => {

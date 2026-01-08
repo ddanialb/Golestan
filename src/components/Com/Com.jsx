@@ -1,5 +1,5 @@
 
-import moduleName from '../../../public/images/company/img-1.jpg';
+import moduleName from '/images/company/img-1.jpg';
 
 
 const Com = () => {

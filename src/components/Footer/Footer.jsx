@@ -1,7 +1,7 @@
-import imgone from '../../../footer/img-13.png'
-import imgtwo from '../../../footer/img-14.png'
-import imgtree from '../../../footer/img-15.png'
-import imgfor from '../../../footer/img-16.png'
+import imgone from '/images/footer/img-13.png'
+import imgtwo from '/images/footer/img-14.png'
+import imgtree from '/images/footer/img-15.png'
+import imgfor from '/images/footer/img-16.png'
 
 
 const Footer = () => {

@@ -1,4 +1,4 @@
-import second from '../../../public/images/page/up-arrow.svg'
+import second from '/images/page/up-arrow.svg'
 
 const Top = () => {
     return ( 

@@ -1,7 +1,7 @@
 
-import img_1 from '../../../public/images/cared/img-1.jpg'
-import img_2 from '../../../public/images/cared/img-2.jpg'
-import img_3 from '../../../public/images/cared/img-3.jpg'
+import img_1 from '/images/cared/img-1.jpg'
+import img_2 from '/images/cared/img-2.jpg'
+import img_3 from '/images/cared/img-3.jpg'
 
 
 const Cardtwo = () => {

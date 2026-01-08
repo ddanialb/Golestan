@@ -207,6 +207,9 @@
   .z-\[10000\] {
     z-index: 10000;
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -320,6 +323,12 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-\[1440px\] {
+    max-width: 1440px;
+  }
+  .max-w-\[1600px\] {
+    max-width: 1600px;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -1479,6 +1488,11 @@
       top: 50px;
     }
   }
+  .desktop\:right-0 {
+    @media (width >= 1000px) {
+      right: calc(var(--spacing) * 0);
+    }
+  }
   .desktop\:right-\[15\%\] {
     @media (width >= 1000px) {
       right: 15%;
@@ -1689,19 +1703,9 @@
       height: 100%;
     }
   }
-  .desktop\:w-\[26\%\] {
-    @media (width >= 1000px) {
-      width: 26%;
-    }
-  }
   .desktop\:w-\[62px\] {
     @media (width >= 1000px) {
       width: 62px;
-    }
-  }
-  .desktop\:w-\[74\%\] {
-    @media (width >= 1000px) {
-      width: 74%;
     }
   }
   .desktop\:w-\[77px\] {
@@ -1839,9 +1843,14 @@
       width: 1000px;
     }
   }
-  .desktop\:w-\[1060px\] {
+  .desktop\:w-auto {
     @media (width >= 1000px) {
-      width: 1060px;
+      width: auto;
+    }
+  }
+  .desktop\:w-full {
+    @media (width >= 1000px) {
+      width: 100%;
     }
   }
   .desktop\:flex-col {
@@ -2018,15 +2027,27 @@
 }
 @font-face {
   font-family: Yekan;
-  src: url(../../public/fonts/Iran\ Sans\ Light.ttf);
+  src: url(/fonts/Iran\ Sans\ Light.ttf);
 }
 @font-face {
   font-family: Num;
-  src: url(../../public/fonts/IRANSansWeb-Light.woff2);
+  src: url(/fonts/IRANSansWeb-Light.woff2);
 }
 :root {
   --fontFamily: Yekan;
   --fontNumber: Num;
+}
+.main-wrapper {
+  width: 100%;
+  background-color: #4a4a4a;
+  min-height: 100vh;
+}
+.main-content {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
 }
 @property --tw-space-y-reverse {
   syntax: "*";
